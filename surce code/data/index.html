@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Your pc web panel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 12px;
+        }
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Your pc web panel</h1>
+    <p>Code by filizanka</p>
+    <a href="/ncat.html" class="button">NCAT Page</a>
+    <a href="http://192.168.18.5:8888" class="button">Web SSH</a>
+    <form action="/start_ssh_server" method="post">
+        <input type="submit" value="Start SSH Server" class="button">
+    </form>
+</body>
+</html>
